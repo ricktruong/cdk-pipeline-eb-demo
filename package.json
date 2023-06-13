@@ -1,8 +1,8 @@
 {
-  "name": "elastic_beanstalk_practice_app",
+  "name": "cdk-pipeline-eb-demo",
   "version": "0.1.0",
   "bin": {
-    "elastic_beanstalk_practice_app": "bin/cdk-pipeline-eb-demo.js"
+    "cdk-pipeline-eb-demo": "bin/cdk-pipeline-eb-demo.js"
   },
   "scripts": {
     "build": "tsc",
