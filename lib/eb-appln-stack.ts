@@ -4,7 +4,9 @@ import * as s3assets from 'aws-cdk-lib/aws-s3-assets';
 import * as elasticbeanstalk from 'aws-cdk-lib/aws-elasticbeanstalk';
 import * as iam from 'aws-cdk-lib/aws-iam';
 
-
+/**
+ * CLOUD DEVELOPMENT
+ */
 export interface EBEnvProps extends cdk.StackProps {
     // Autoscaling group configuration
   minSize?: string;

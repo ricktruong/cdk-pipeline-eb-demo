@@ -3,7 +3,9 @@ import { Construct } from 'constructs';
 import {  Stack, StackProps } from 'aws-cdk-lib';
 
 /**
- * The stack that defines the application pipeline
+ * DEVOPS
+ * 
+ * Create the CDK Pipeline Stack
  */
 export class CdkPipelineStack extends Stack {
   constructor(scope: Construct, id: string, props?: StackProps) {
